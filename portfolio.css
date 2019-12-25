@@ -1,0 +1,86 @@
+/*----Generelle indstillinger------*/
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+
+
+/*----Generelle indstillinger--SLUT----*/
+
+
+/*----Animation indstillinger------*/
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+
+}
+
+.omTemaet {
+    width: 75vw;
+
+}
+
+.col {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+.col_1 {
+    padding: 0 5vw 3vw 0;
+    /*    margin-right: 5vw;*/
+}
+
+.image {
+    flex-basis: 300px;
+    flex-grow: 1;
+}
+
+
+.text {
+    flex-basis: 300px;
+    flex-grow: 1;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----Animation indstillinger--SLUT----*/
