@@ -25,13 +25,20 @@ section {
 
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-color: beige;
+
+}
+
 
 
 /*----Generelle indstillinger--SLUT----*/
 
 
-/*----Animation indstillinger------*/
-
+/*----animation.html indstillinger------*/
 
 
 .container {
@@ -70,17 +77,53 @@ section {
 }
 
 
+#spilwrapper {
+    width: 100%;
+}
+
+
+
+
+/*----Animation.html indstillinger--SLUT----*/
+
+/*----gulBil.html indstillinger------*/
+.wide {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.foto {
+    flex-basis: 300px;
+    flex-grow: 1;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2vw;
+}
+
+.top {
+    /*    flex-basis: 200px;*/
+    flex-grow: 1;
+    margin-bottom: 2vw;
+}
+
+.bottom {
+    /*    flex-basis: 200px;*/
+    flex-grow: 1;
+}
+
+.big img {
+    width: 80%;
+
+}
 
 
 
 
 
 
+/*----gulBil.html indstillinger---SLUT---*/
 
+/*----------query desktop--------------*/
 
-
-
-
-
-
-/*----Animation indstillinger--SLUT----*/
+@media only screen and (min-width:900px) {}
